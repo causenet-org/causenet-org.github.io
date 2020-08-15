@@ -1,6 +1,6 @@
-# Webis Website
+# CauseNet Website
 
-The Webis website source code.
+The CauseNet website source code.
 
 ## Building The Source Code
 
@@ -82,6 +82,6 @@ a collection of modular Jekyll templates, Sass styles, and other third-party dep
 (UIkit, Fontawesome, jQuery, etc.) for the Webis website theme.
 
 If you add new styles or scripts, please check if they are modular and reusable enough
-to be added there. Only add them to this repository if they are specific to the webis.de
+to be added there. Only add them to this repository if they are specific to the causenet.org
 main website. Please also keep the number of Sass variable redefinitions at the absolute minimum
 to avoid inconsistencies between websites.
