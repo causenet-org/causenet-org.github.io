@@ -24,9 +24,6 @@
         <!-- Off-canvas mobile navigation -->
         <nav class="uk-margin-large-top">
             <ul class="uk-nav uk-nav-primary uk-nav-parent-icon" data-uk-nav>
-                <li{% if page.nav_active == "people" %} class="uk-active"{% endif %}>
-                <a> <!-- href="{{ '/people.html' | relative_url }}">-->People</a>
-                </li>
                 <li{% if page.nav_active == "research" %} class="uk-active"{% endif %}>
                 <a> <!-- href="{{ '/research.html' | relative_url }}">-->Research</a>
                 </li>
@@ -66,9 +63,6 @@
         <!-- Desktop navigation -->
         <div class="uk-navbar-right desktop-nav">
             <ul class="uk-navbar-nav">
-                <li{% if page.nav_active == "people" %} class="uk-active"{% endif %}>
-                <a> <!-- href="{{ '/people.html' | relative_url }}">-->People</a>
-                </li>
                 <li{% if page.nav_active == "research" %} class="uk-active"{% endif %}>
                 <a> <!-- href="{{ '/research.html' | relative_url }}">-->Research</a>
                 </li>
@@ -193,7 +187,7 @@
         </div>
 -->
         <div class="uk-align-right@m uk-margin-top">
-            &copy; {{site.time | date: '%Y'}} <a href="/">CauseNet Group</a> <span class="uk-padding-small">&bullet;</span>
+            &copy; {{site.time | date: '%Y'}} <a href="/">CauseNet</a> <span class="uk-padding-small">&bullet;</span>
             <!--a href="{{ '/people.html' | relative_url }}">-->Contact<!--</a>--> <span class="uk-padding-small">&bullet;</span>
             <!--a href="{{ '/legal.html' | relative_url }}">-->Impressum / Terms / Privacy<!--</a>-->
         </div>
