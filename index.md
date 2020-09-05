@@ -223,7 +223,23 @@ The following figure shows an excerpt of CauseNet within Neo4j (showing a corona
 For the construction of CauseNet, we employ a causal concept spotter as a causal concept can be composed of multiple words (e.g., “global warming”, “human activity”, or “lack of exercise”). We determine the exact start and end of a causal
 concept in a sentence with a sequence tagger. Our training and evaluation data is available as part of our [concept spotting datasets](https://groups.uni-paderborn.de/wdqa/causenet/concept-spotting): one for Wikipedia infoboxes, Wikipedia lists, and ClueWeb sentences. We split each dataset into 80% training, 10% development and 10% test set
 
+## Paper
 
+CauseNet forms the basis for our CIKM 2020 paper [CauseNet: Towards a Causality Graph Extracted from the Web](https://papers.dice-research.org/2020/CIKM-20/heindorf_2020a_public.pdf). Please make sure to refer to it as follows:
+
+```TeX
+{%raw%}@inproceedings{heindorf2019causenet,
+  author    = {Stefan Heindorf and
+               Yan Scholten and
+               Henning Wachsmuth and
+               Axel-Cyrille Ngonga Ngomo and
+               Martin Potthast},
+  title     = {CauseNet: Towards a Causality Graph Extracted from the Web},
+  booktitle = {{CIKM}},
+  publisher = {{ACM}},
+  year      = {2020}
+}{%endraw%}
+```
 
 ## Contact
 
