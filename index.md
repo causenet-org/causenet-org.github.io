@@ -5,21 +5,19 @@ title: CauseNet
 description: Collecting All Causal Knowledge
 ---
 
-<main class="uk-section uk-cover-container index-main-cover">
-    <div class="cover-background-fade"></div>
-    <div class="uk-container uk-position-bottom uk-light uk-padding">
-        <h1>Collecting All Causal Knowledge</h1>
-        <div>
-            <p>
-                CauseNet aims at creating a causal knowledge base that comprises all human causal knowledge and to separate it from mere causal beliefs, with the goal of enabling large-scale research into causal inference.
-            </p>
+<main>
+    <div class="uk-section uk-cover-container index-main-cover">
+        <div class="cover-background-fade"></div>
+        <div class="uk-container uk-position-bottom uk-light uk-padding">
+            <h1>Collecting All Causal Knowledge</h1>
+            <div>
+                <p>
+                    CauseNet aims at creating a causal knowledge base that comprises all human causal knowledge and to separate it from mere causal beliefs, with the goal of enabling large-scale research into causal inference.
+                </p>
+            </div>
         </div>
     </div>
-</main>
-
-<main class="uk-section uk-section-default">
-<div class="uk-container" markdown="1">
-
+    <div class="uk-section uk-section-default uk-container" markdown="1">
 
 # CauseNet: Towards a Causality Graph Extracted from the Web
 
@@ -44,7 +42,7 @@ We provide three versions of our causality graph CauseNet:
 
 The core of CauseNet consists of causal concepts which are connected by causal relations. Each causal relation has comprehensive provenance data on where and how it was extracted.
 
-<img align="center" src="img/data-model.svg" alt="drawing" width="600"/>
+<div style="text-align: center;"><img src="img/data-model.svg" alt="drawing" width="600"/></div>
 
 ## Examples of Causal Relations
 
@@ -215,7 +213,7 @@ We provide [sample code](data/load-into-neo4j.ipynb) to load CauseNet into the g
 
 The following figure shows an excerpt of CauseNet within Neo4j (showing a coronavirus causing the disease SARS):
 
-<img align="center" src="img/graph.svg" alt="drawing" width="600"/>
+<div style="text-align: center;"><img src="img/graph.svg" alt="drawing" width="600"/></div>
 
 
 ## Concept Spotting Datasets
@@ -254,7 +252,5 @@ Martin Potthast, Leipzig University
 ## Licenses
 
 The code is licensed under a [MIT license](https://opensource.org/licenses/MIT). The data is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
-
-
-</div>
+    </div>
 </main>
