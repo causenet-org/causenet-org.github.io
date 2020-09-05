@@ -252,5 +252,3 @@ Martin Potthast, Leipzig University
 ## Licenses
 
 The code is licensed under a [MIT license](https://opensource.org/licenses/MIT). The data is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
-    </div>
-</main>
