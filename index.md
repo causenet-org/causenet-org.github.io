@@ -228,7 +228,7 @@ concept in a sentence with a sequence tagger. Our training and evaluation data i
 CauseNet forms the basis for our CIKM 2020 paper [CauseNet: Towards a Causality Graph Extracted from the Web](https://papers.dice-research.org/2020/CIKM-20/heindorf_2020a_public.pdf). Please make sure to refer to it as follows:
 
 ```TeX
-{%raw%}@inproceedings{heindorf2019causenet,
+{%raw%}@inproceedings{heindorf2020causenet,
   author    = {Stefan Heindorf and
                Yan Scholten and
                Henning Wachsmuth and
