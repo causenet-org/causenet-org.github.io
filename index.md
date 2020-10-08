@@ -65,7 +65,6 @@ Causal relations are represented as shown in the following example. Provenance d
 For CauseNet-Full and CauseNet-Precision, we include comprehensive provenance data. In the following, we give one example per source.
 
 For relations extracted from natural language sentences we provide:
-For relations extracted from natural language sentences we provide:
 - `surface`: the surface form of the sentence, i.e., the original string  
 - `path_pattern`: the linguistic path pattern used for extraction  
 
