@@ -26,9 +26,9 @@ Causal knowledge is seen as one of the key ingredients to advance artificial int
 ## Download
 
 We provide three versions of our causality graph CauseNet:
-- [CauseNet-Full](https://groups.uni-paderborn.de/wdqa/causenet/graphs/causenet-full.jsonl.bz2): The complete dataset
-- [CauseNet-Precision](https://groups.uni-paderborn.de/wdqa/causenet/graphs/causenet-precision.jsonl.bz2): A subset of CauseNet-Full with higher precision
-- [CauseNet-Sample](https://groups.uni-paderborn.de/wdqa/causenet/graphs/causenet-sample.json): A small sample dataset for first explorations and experiments without provenance data
+- [CauseNet-Full](https://groups.uni-paderborn.de/wdqa/causenet/causality-graphs/causenet-full.jsonl.bz2): The complete dataset
+- [CauseNet-Precision](https://groups.uni-paderborn.de/wdqa/causenet/causality-graphs/causenet-precision.jsonl.bz2): A subset of CauseNet-Full with higher precision
+- [CauseNet-Sample](https://groups.uni-paderborn.de/wdqa/causenet/causality-graphs/causenet-sample.json): A small sample dataset for first explorations and experiments without provenance data
 
 ## Statistics
 
